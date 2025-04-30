@@ -75,6 +75,12 @@ pip install -r melotts_requirements.txt
 conda env create -f environment_advance.yaml -n papergen_adv
 ```
 
+```bash
+brew install graphviz
+brew install --cask mactex (if you don't want t use this mactex, the defalt is matplotlib, but the performance is not good )
+
+```
+
 ---
 
 ## 🔑 API Key & Environment Variables
@@ -91,7 +97,8 @@ ENHANCE_AGENT_ID=ag:b3a9e6f1:20250403:untitled-agent:e4afc82a
 SERVER_HOST=0.0.0.0
 SERVER_PORT=8000
 ```
-
+🚀 For The API go to the below Link
+https://console.mistral.ai/home
 > 🔐 Make sure to use your own valid `MISTRAL_API_KEY`.
 
 ---
@@ -133,4 +140,4 @@ uvicorn image_bot:app --port 8004 --reload
 - ⚡ **Faster PPT generation**
 - 🧠 **RL + Agent-based layout optimization**
 - 🌍 **Multilingual podcast voices with natural tone**
-- 📊 **Smart table & image embedding into slides**
+
